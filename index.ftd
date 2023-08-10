@@ -549,6 +549,8 @@ src: $profile-card-desktop.image
 width: fill-container
 height: fill-container
 border-radius.percent: 100
+border-color: $inherited.colors.custom.three
+border-width.px: 10
 
 -- ftd.text:
 if: { profile-card-desktop.title != NULL }
